@@ -156,3 +156,36 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* Listings Section */
+
+.listings {
+    padding: 50px 10%;
+    background: #ffffff;
+}
+
+.listings h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#listings-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+#listings-container > div {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#listings-container h3 {
+    margin-bottom: 12px;
+}
+
+#listings-container p {
+    margin: 8px 0;
+}
